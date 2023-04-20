@@ -1,4 +1,4 @@
-'''#!/usr/bin/python3
+#!/usr/bin/python3
 def pascal_triangle(n):
     triangle = []
     if n <= 0:
@@ -13,7 +13,8 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-*/'''
+
+    '''
 #!/usr/bin/python3
 """A script to determine pascal's triangle for any number"""
 
@@ -37,4 +38,4 @@ def pascal_triangle(n):
                 temp_list.append(triangle[i-1][j-1] + triangle[i-1][j])
         triangle.append(temp_list)
     # print(triangle)
-    return triangle
+    return triangle'''
